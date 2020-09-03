@@ -1,0 +1,2 @@
+rootProject.name='Touch Listener'
+include ':app'
