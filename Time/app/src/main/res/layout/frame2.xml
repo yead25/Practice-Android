@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/barisal"
+        android:text="Dhaka"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clock_time"
+        android:textAllCaps="false"
+
+        android:background="@android:color/holo_green_dark"/>
+    <Button
+        android:id="@+id/Dhaka"
+        android:text="London"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barisal"
+        android:textAllCaps="false"
+
+        android:background="@android:color/holo_orange_dark"/>
+    <Button
+        android:id="@+id/khulna"
+        android:text="New York"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Dhaka"
+        android:textAllCaps="false"
+
+        android:background="@android:color/holo_orange_light"/>
+
+</LinearLayout>
